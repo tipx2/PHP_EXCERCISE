@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Student</title>
+   </head>
+   <body>
+        <h1>Student Registration</h1>
+
+        <form method="post" action="methods.php">
+            <input type="text" name="nameinput" id="nameinput" placeholder="Name"/><br><br>
+            <input type="text" name="courseinput" id="courseinput" placeholder="Course"/><br><br>
+            <input type="text" name="s1input" id="s1input" placeholder="Subject 1"/><br><br>
+            <input type="text" name="s2input" id="s2input" placeholder="Subject 2"/><br><br>
+            <input type="text" name="s3input" id="s3input" placeholder="Subject 3"/><br><br>
+            <input type="text" name="s4input" id="s4input" placeholder="Subject 4"/><br><br>
+            <input type="text" name="yearinput" id="yearinput" placeholder="Year of Study"/><br><br>
+            <input type="submit" name="submitbutton" id="submitbutton" value="Submit"/>
+        </form>
+
+        <br><br><br>
+
+        <h1>Query Student Grades</h1>
+        <form method="get" action="methods.php">
+            <input type="text" name="querygradesinput" id="querygradesinput" placeholder="Student ID"/>
+            <input type="submit" name="gradesbutton" id="gradesbutton" value="Get Grades"/>
+        </form>
+    
+   </body>
+</html>
